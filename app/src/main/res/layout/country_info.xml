@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:layout_marginTop="540dp"
+        android:text="Show on Map"
+        android:onClick="gotoMap"/>
+    <ImageView
+        android:id="@+id/flag"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="200dp"
+        android:scaleType="fitXY" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="10dp"
+        android:text="Country Name"
+        android:textSize="18dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="10dp"
+        android:text="Capital"
+        android:textSize="18dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="10dp"
+        android:text="Continent"
+        android:textSize="18dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="10dp"
+        android:text="Population"
+        android:textSize="18dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="10dp"
+        android:text="Area"
+        android:textSize="18dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="10dp"
+        android:text="Currency"
+        android:textSize="18dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="10dp"
+        android:text="Abbreviation"
+        android:textSize="18dp"/>
+
+
+    <TextView
+        android:id="@+id/countryname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:text="Country Name"
+        android:textSize="18dp"/>
+    <TextView
+        android:id="@+id/capital"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:text="Capital"
+        android:textSize="18dp"/>
+    <TextView
+        android:id="@+id/continent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:text="Continent"
+        android:textSize="18dp"/>
+    <TextView
+        android:id="@+id/population"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:text="Population"
+        android:textSize="18dp"/>
+    <TextView
+        android:id="@+id/area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="420dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:text="Area"
+        android:textSize="18dp"/>
+    <TextView
+        android:id="@+id/currency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="460dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:text="Currency"
+        android:textSize="18dp"/>
+    <TextView
+        android:id="@+id/flagcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:text="Abbreviation"
+        android:textSize="18dp"/>
+
+</RelativeLayout>
+
+    </ScrollView>

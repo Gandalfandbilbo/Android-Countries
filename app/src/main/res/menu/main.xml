@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/youtube"
+        android:orderInCategory="101"
+        android:title="Video"
+        app:showAsAction="always"
+        android:visible="true"/>
+    <item
+        android:id="@+id/quiz"
+        android:title="Quiz"
+        android:orderInCategory="101"
+        app:showAsAction="always"
+        android:visible="true"/>
+</menu>
